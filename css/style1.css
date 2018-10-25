@@ -1,10 +1,6 @@
-navbar {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
+
+
+@font-face {
+font-family: thor;
+src: url("../font/modi_thorson/modithorson3d.ttf") format("truetype");
 }

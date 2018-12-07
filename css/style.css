@@ -44,3 +44,24 @@ border-radius: 2px; }
      width: 100px; 
     padding-left:18px;
 }
+/* Interest section icons */
+
+.interest-icons{
+    display: inline-block;
+    box-sizing: border-box;
+    
+  
+    
+}
+#icons{
+    
+    fill: aqua;
+    
+  
+    
+    
+    
+    
+}
+
+

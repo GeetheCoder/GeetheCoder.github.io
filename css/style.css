@@ -20,6 +20,25 @@ body,
 .top-nav-collapse {
   background-color: #1C2331; }
 
+
+
+/* ABOUT ME SECTION*/
+#about-me-gpic{
+    height: 500px;
+    width: auto;
+}
+
+#about-me-heading{
+    
+    font-size: 40px;
+}
+
+#interest-heading{
+    font-size: 40px;
+    
+    
+}
+
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {

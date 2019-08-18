@@ -5,5 +5,5 @@ George Mays Porfolio site
 ***01/11/2019 Added A  Favicon ***
 ***Added a new contact.php to activate the contact address... still testing *** 
 ***01/13/2019 I got my contact form to work with php mailer. I now receive emails to my mail server ***
-
+***08/17/2019 Del php files***
 

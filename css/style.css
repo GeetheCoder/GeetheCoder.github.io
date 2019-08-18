@@ -1,86 +1,29 @@
-/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
-html,
-body,
-.view {
-  height: 100%; }
-
-/* Full Page Carousel itself*/
-.carousel {
-  height: 100%; }
-  .carousel .carousel-inner {
-    height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
-
-/* Navbar animation */
-.navbar {
-  background-color: rgba(0, 0, 0, 0.2); }
-
-.top-nav-collapse {
-  background-color: #1C2331; }
-
-
-
-/* ABOUT ME SECTION*/
-#about-me-gpic{
-    height: 500px;
-    width: auto;
-}
-
-#about-me-heading{
-    
-    font-size: 40px;
-}
-
-#interest-heading{
-    font-size: 40px;
-    
+#main-header img {
+    height: 100%;
+    width: 100%;
     
 }
 
-/* Adding color to the Navbar on mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #1C2331; } }
-
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #1C2331; }
-
-@media (min-width: 768px) {
-.carousel-multi-item-2 .col-md-3 {
-float: left;
-width: 25%;
-max-width: 100%; } }
-
-.carousel-multi-item-2 .card img {
-border-radius: 2px; }
-
-.center-div
-{
-     margin: 0 auto;
-     width: 100px; 
-    padding-left:18px;
+.bg-black{
+    color: #fff;
+    background: #000;
+     
 }
-/* Interest section icons */
 
-.interest-icons{
-    display: inline-block;
-    box-sizing: border-box;
-    
-  
+#main-header .port-item{
+    width: 30%;
     
 }
-#icons{
-    
-    fill: aqua;
-    
-  
-    
-    
-    
+#main-header .port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
     
 }
 
-
+@media (min-width:1199px) {
+    .port-item {
+        
+        padding: 3em !important;
+    }
+    
+}
